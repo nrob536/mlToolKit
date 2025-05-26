@@ -41,4 +41,6 @@ genEmploymentData <- function(n = 100, seed = 123) {
   return(data)
 }
 
-data <- genEmploymentData(n = 100)
+data <- genEmploymentData(n = 2000)
+
+str(data)
